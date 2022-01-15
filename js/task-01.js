@@ -1,6 +1,4 @@
 /**Напиши скрипт:
-
-
 Number of categories: 3
 
 Category: Animals
