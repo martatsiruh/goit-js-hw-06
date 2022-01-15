@@ -18,12 +18,11 @@ const images = [
 const galleryList = document.querySelector('.gallery');
 //console.log(galleryList);
 
-
 const createImages = images.map(image => 
   `<li class = "gallery__item"> <img 
         src = '${image.url}'
         alt = '${image.alt}'
-        width = 700
+        width = 300
         />
   </li>`
 
