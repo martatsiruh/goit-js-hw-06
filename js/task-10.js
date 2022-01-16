@@ -24,7 +24,8 @@ function createBoxes(amount) {
   let width = 30;
   let height = 30;
 
-  for (let elem = 1; elem < amount + 1; elem += 1) {
+  
+  for (let i = 1; i < amount + 1; i += 1) {
     const newBoxes = document.createElement('div');
     //console.log(newBoxes);
     newBoxes.classList.add('boxes')
