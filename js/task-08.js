@@ -13,8 +13,8 @@ function onFormSubmit(event) {
         return alert("Please fill all the free fields!");
     };
 
-    formData.email = `$(email.value)`;
-    formData.password = `$(password.value)`;
+    formData.email = `${email.value}`;
+    formData.password = `${password.value}`;
     console.log(formData);
 
     //console.log(`Login: ${email.value}, Password ${password.value}`);
